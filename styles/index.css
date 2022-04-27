@@ -266,7 +266,6 @@ body {
 .form-section_form_submit-button:hover,
 .form-section_form_submit-button:focus {
     background: linear-gradient(180deg, var(--accent-light-cyan), var(--accent-light-cyan));
-    /*background-color: var(--accent-light-cyan);*/
     cursor: pointer;
 }
 
@@ -361,8 +360,9 @@ body {
 
     .form-section {
         width: 60%;
-        margin: 3rem auto -7rem auto;
+        margin: 3rem auto -12rem auto;
         border-radius: 0.9rem;
+        position: relative;
     }
     .form-section_header {
         font-size: 3.2rem;
